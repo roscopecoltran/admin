@@ -13,7 +13,12 @@ import (
 	"github.com/qor/qor"
 	"github.com/qor/qor/resource"
 	"github.com/qor/qor/utils"
-)
+	/*
+		"github.com/blevesearch/bleve"
+		"github.com/blevesearch/bleve/analysis/analyzers/keyword_analyzer"
+		"github.com/blevesearch/bleve/analysis/analyzers/simple_analyzer"
+		"github.com/blevesearch/bleve/analysis/language/en"
+	*/)
 
 // PaginationPageCount default pagination page count
 var PaginationPageCount = 20

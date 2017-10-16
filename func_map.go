@@ -363,7 +363,8 @@ func (context *Context) renderMeta(meta *Meta, value interface{}, prefix []strin
 		} else if metaType == "index" {
 			tmpl, err = tmpl.Parse("{{.Value}}")
 		} else {
-			err = fmt.Errorf("haven't found %v template for meta %v", metaType, meta.Name)
+			err = fmt.Errorf("haven't found template \"%v/%v.tmpl\" for meta %q", metaType, meta.Type, meta.Name)
+			// err = fmt.Errorf("haven't found %v template for meta %v", metaType, meta.Name)
 		}
 	}
 
