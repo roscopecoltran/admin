@@ -1,0 +1,183 @@
+hash: 3e9f5e7e65ebdbac1e1b1e891b1f56a434eef88026d1b20c33bd37b06aa091d7
+updated: 2017-10-16T15:25:14.548555678+02:00
+imports:
+- name: github.com/astaxie/beego
+  version: c5118e9535f237996bae7c7baebe4ed4247cb2c6
+  subpackages:
+  - config
+  - context
+  - context/param
+  - grace
+  - logs
+  - session
+  - toolbox
+  - utils
+- name: github.com/blevesearch/bleve
+  version: 6eea5b78da004393b1d06b8c88d1bed9ca0a94b2
+  subpackages:
+  - analysis
+  - analysis/analyzer/keyword
+  - analysis/analyzer/simple
+  - analysis/analyzer/standard
+  - analysis/datetime/flexible
+  - analysis/datetime/optional
+  - analysis/lang/en
+  - analysis/token/lowercase
+  - analysis/token/porter
+  - analysis/token/stop
+  - analysis/tokenizer/character
+  - analysis/tokenizer/letter
+  - analysis/tokenizer/single
+  - analysis/tokenizer/unicode
+  - document
+  - geo
+  - index
+  - index/store
+  - index/store/boltdb
+  - index/store/gtreap
+  - index/upsidedown
+  - mapping
+  - numeric
+  - registry
+  - search
+  - search/collector
+  - search/facet
+  - search/highlight
+  - search/highlight/format/html
+  - search/highlight/fragmenter/simple
+  - search/highlight/highlighter/html
+  - search/highlight/highlighter/simple
+  - search/query
+  - search/scorer
+  - search/searcher
+- name: github.com/blevesearch/go-porterstemmer
+  version: 23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e
+  repo: https://github.com/blevesearch/go-porterstemmer
+- name: github.com/blevesearch/segment
+  version: db70c57796cc8c310613541dfade3dce627d09c7
+  repo: https://github.com/blevesearch/segment
+- name: github.com/boltdb/bolt
+  version: 144418e1475d8bf7abbdc48583500f1a20c62ea7
+  repo: https://github.com/boltdb/bolt
+- name: github.com/disintegration/imaging
+  version: d8bbae1de109b518dabc98c6c1633eb358c148a4
+- name: github.com/gin-gonic/gin
+  version: f931d1ea80ae95a6fc739213cdd9399bd2967fb6
+  subpackages:
+  - binding
+  - render
+- name: github.com/go-sql-driver/mysql
+  version: eb92a8dc628ca52501ddae1ed90eca7514f215bf
+- name: github.com/golang/protobuf
+  version: 655cdfa588ea190e901bc5590e65d5621688847c
+  repo: https://github.com/golang/protobuf
+  subpackages:
+  - proto
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/mux
+  version: 757bef944d0f21880861c2dd9c871ca543023cba
+- name: github.com/gorilla/securecookie
+  version: e59506cc896acb7f7bf732d4fdf5e25f7ccd8983
+- name: github.com/gorilla/sessions
+  version: a3acf13e802c358d65f249324d14ed24aac11370
+- name: github.com/gosimple/slug
+  version: e9f42fa127660e552d0ad2b589868d403a9be7c6
+- name: github.com/jinzhu/gorm
+  version: 02f6ae3c4ed211472b0492cee02ff3ddfdc1830d
+- name: github.com/jinzhu/inflection
+  version: 74387dc39a75e970e7a3ae6a3386b5bd2e5c5cff
+- name: github.com/jinzhu/now
+  version: d9861969c7a7e84746d341c09020c2ef8a617f8f
+- name: github.com/lib/pq
+  version: 50761b0867bd1d9d069276790bcd4a3bccf2324a
+  subpackages:
+  - oid
+- name: github.com/manucorporat/sse
+  version: ee05b128a739a0fb76c7ebd3ae4810c1de808d6d
+- name: github.com/mattn/go-sqlite3
+  version: 5160b48509cf5c877bc22c11c373f8c7738cdb38
+- name: github.com/microcosm-cc/bluemonday
+  version: 7d0cad0ac7ef5e3afd74816444b44b56327422a4
+- name: github.com/qor/admin
+  version: 6f3c9d4566cc5ca4e587832ef2eb35b58def0eff
+  subpackages:
+  - tests/dummy
+- name: github.com/qor/assetfs
+  version: ff57fdc13a148d39c3e930cb27c7eaf82e376891
+- name: github.com/qor/media
+  version: 6bca015cd2ee0072b9f61e7ead5c7d1c8327ddbc
+  subpackages:
+  - oss
+- name: github.com/qor/middlewares
+  version: 781378b69454a545d08058d8154aca40d079e7ab
+- name: github.com/qor/oss
+  version: cdabd64fd390d98d5aed2eb548c97221519e45ff
+  subpackages:
+  - filesystem
+- name: github.com/qor/qor
+  version: dd91c8debf49008a5704ca2ba8c13330e1a41838
+  subpackages:
+  - resource
+  - test/utils
+  - utils
+- name: github.com/qor/responder
+  version: 5418a89673865c8839eed3cbbb25d30e9c8b2529
+- name: github.com/qor/roles
+  version: 2c44eeffba3e666915376605327218afa30bc6ab
+- name: github.com/qor/serializable_meta
+  version: 0f4aea1a3d8a100587260327a955c80efad56623
+- name: github.com/qor/session
+  version: 8206b0adab706a6ef3ee6fabba2584d34429a26a
+  subpackages:
+  - gorilla
+  - manager
+- name: github.com/rainycape/unidecode
+  version: cb7f23ec59bec0d61b19c56cd88cee3d0cc1870c
+- name: github.com/steveyen/gtreap
+  version: 0abe01ef9be25c4aedc174758ec2d917314d6d70
+  repo: https://github.com/steveyen/gtreap
+- name: github.com/theplant/cldr
+  version: b0e164c0af5b3f027430b6b861d999076a6c67ad
+- name: golang.org/x/image
+  version: bb355ba4424d077d404aafbb59b05776b2e88fa7
+  subpackages:
+  - bmp
+  - tiff
+  - tiff/lzw
+- name: golang.org/x/net
+  version: e45385e9b226f570b1f086bf287b25d3d4117776
+  repo: https://go.googlesource.com/net
+  subpackages:
+  - context
+  - html
+  - html/atom
+- name: golang.org/x/sys
+  version: d75a52659825e75fff6158388dddc6a5b04f9ba5
+  subpackages:
+  - unix
+- name: gopkg.in/go-playground/validator.v8
+  version: c193cecd124b5cc722d7ee5538e945bdb3348435
+- name: gopkg.in/yaml.v2
+  version: a5b47d31c556af34a302ce5d659e6fea44d90de0
+testImports:
+- name: github.com/andybalholm/cascadia
+  version: 349dd0209470eabd9514242c688c403c0926d266
+- name: github.com/fatih/color
+  version: 5df930a27be2502f99b292b7cc09ebad4d0891f4
+- name: github.com/mattn/go-colorable
+  version: 5411d3eea5978e6cdc258b30de592b60df6aba96
+  repo: https://github.com/mattn/go-colorable
+- name: github.com/mattn/go-isatty
+  version: 57fdcb988a5c543893cc61bce354a6e24ab70022
+  repo: https://github.com/mattn/go-isatty
+- name: github.com/pmezard/go-difflib
+  version: 792786c7400a136282c1664665ae0a8db921c6c2
+  subpackages:
+  - difflib
+- name: github.com/theplant/htmltestingutils
+  version: 5313e1d8c06a29baac57ea72d96d49293f50fd5a
+- name: github.com/theplant/testingutils
+  version: fb178b94164ec7751fed85f8a2eb29609af78963
+- name: github.com/yosssi/gohtml
+  version: 0cb98725f71a637e7bb967a8e87a1bab7ebaa6b0

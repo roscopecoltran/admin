@@ -25,3 +25,7 @@ __*
 *.min.map
 .sass-cache
 npm-debug.log
+
+vendor
+vendor/
+vendor/**

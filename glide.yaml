@@ -1,0 +1,38 @@
+package: github.com/roscopecoltran/admin
+ignore:
+- github.com/qor/admin/tests/dummy
+import:
+- package: github.com/astaxie/beego
+- package: github.com/blevesearch/bleve
+  subpackages:
+  - analysis/analyzer/keyword
+  - analysis/analyzer/simple
+  - analysis/lang/en
+- package: github.com/gin-gonic/gin
+- package: github.com/gorilla/mux
+- package: github.com/jinzhu/gorm
+- package: github.com/jinzhu/inflection
+- package: github.com/mattn/go-sqlite3
+- package: github.com/qor/admin
+  subpackages:
+  - tests/dummy
+- package: github.com/qor/assetfs
+- package: github.com/qor/media
+  subpackages:
+  - oss
+- package: github.com/qor/qor
+  subpackages:
+  - resource
+  - test/utils
+  - utils
+- package: github.com/qor/responder
+- package: github.com/qor/roles
+- package: github.com/qor/session
+  subpackages:
+  - manager
+- package: github.com/theplant/cldr
+testImport:
+- package: github.com/fatih/color
+- package: github.com/jinzhu/now
+- package: github.com/theplant/htmltestingutils
+- package: github.com/theplant/testingutils
