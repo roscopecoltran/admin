@@ -33,3 +33,9 @@ vendor/**
 node_modules
 node_modules/
 node_modules/**
+
+*.db
+.env
+*.csr
+*.crt
+*.key
