@@ -1,5 +1,6 @@
 package admin
 
+/*
 import (
 	"github.com/blevesearch/bleve"
 	"github.com/blevesearch/bleve/analysis/analyzer/keyword"
@@ -43,3 +44,4 @@ func buildIndexMapping() *bleve.IndexMapping {
 
 	return indexMapping
 }
+*/
